@@ -1,0 +1,37 @@
+{
+    "intents": [
+        {
+            "tag": "curva_consumo",
+            "patterns": [
+                "¿Cuál fue mi curva de consumo?",
+                "Muéstrame mi curva de consumo",
+                "¿Cómo ha sido mi consumo?"
+            ],
+            "responses": [
+                "Aquí tienes tu curva de consumo reciente."
+            ]
+        },
+        {
+            "tag": "reducir_planilla",
+            "patterns": [
+                "¿Cómo puedo reducir mi planilla?",
+                "¿Qué puedo hacer para pagar menos en mi factura?",
+                "Dame tips para ahorrar energía"
+            ],
+            "responses": [
+                "Algunas formas de reducir tu consumo incluyen: \n- Usar electrodomésticos eficientes.\n- Apagar luces que no uses.\n- Aprovechar la luz natural."
+            ]
+        },
+        {
+            "tag": "reportar_corte",
+            "patterns": [
+                "Hay un corte de energía",
+                "No tengo luz",
+                "Se fue la luz en mi casa"
+            ],
+            "responses": [
+                "Hemos registrado tu reporte. Un técnico se comunicará contigo pronto para agendar una visita."
+            ]
+        }
+    ]
+}
