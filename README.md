@@ -8,9 +8,14 @@ Este chatbot está diseñado para interactuar con los usuarios y realizar tareas
 
 ## Estructura del Proyecto
 
-- `chatbot.py`: Archivo principal que contiene la lógica del chatbot y la integración con PyTorch para la clasificación.
-- `intents.json`: Archivo JSON que define las intenciones y ejemplos de entrenamiento del chatbot.
-- `reportes_cortes.txt`: Archivo de texto para almacenar reportes sobre cortes de energía.
+Resumen:
+
+base_modelo.py: Este archivo entrena y guarda el modelo del chatbot.
+chatbot.py: Es el encargado de hablar con el usuario, usando el modelo entrenado para responder preguntas.
+Opciones adicionales:
+
+Curvas aleatorias: El método generar_curva_consumo() ahora crea datos de consumo de manera aleatoria cada vez que lo llamas.
+Curvas por suministro: Puedes obtener curvas específicas para diferentes suministros usando obtener_curvas_aleatorias().
 
 ## Instalación
 
