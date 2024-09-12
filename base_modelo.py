@@ -8,6 +8,9 @@ import nltk
 
 nltk.download('punkt')
 
+# Inicializar el stemmer
+stemmer = PorterStemmer()
+
 # Funciones de preprocesamiento
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
@@ -26,8 +29,6 @@ def bag_of_words(tokenized_sentence, words):
 # Cargar datos de intents
 with open('intents.json', 'r', encoding='utf-8') as f:
     intents = json.load(f)
-
-stemmer = PorterStemmer()
 
 all_words = []
 tags = []
@@ -98,4 +99,11 @@ for epoch in range(num_epochs):
         print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item():.4f}')
 
 # Guardar el modelo
-torch.save(model.state_dict(), 'model.pth')
+torch.save({
+    'input_size': input_size,
+    'hidden_size': hidden_size,
+    'output_size': output_size,
+    'all_words': all_words,
+    'tags': tags,
+    'model_state': model.state_dict()
+}, 'model.pth')

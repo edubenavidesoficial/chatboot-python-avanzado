@@ -1,5 +1,6 @@
-Corte reportado en Ubicaci�n del usuario el 2024-09-11 23:00:02.520195. Se agendar� una visita.
-Corte reportado en Ubicaci�n del usuario el 2024-09-11 23:04:02.877395. Se agendar� una visita.
+Corte reportado en Ubicaci�n del usuario el 2024-09-11 23:00:02.520195. Se agendar� una visita.
+Corte reportado en Ubicaci�n del usuario el 2024-09-11 23:04:02.877395. Se agendar� una visita.
 Corte reportado en Ubicación del usuario el 2024-09-12 11:41:34.211245. Se agendará una visita.
 Corte reportado en Ubicación del usuario el 2024-09-12 11:42:10.110393. Se agendará una visita.
 Corte reportado en Ubicación del usuario el 2024-09-12 11:43:44.264279. Se agendará una visita.
+Corte reportado en Ubicación del usuario el 2024-09-12 13:05:18.009. Se agendará una visita.
